@@ -5,6 +5,14 @@ This sample guide explains how to integrate Bitmovin Encoder with PallyCon Multi
 
 > This sample is based on [CencDrmContentProtection example](https://github.com/bitmovin/bitmovin-api-sdk-examples) from Bitmovin.
 
+## 💡 Getting Started
+### Settings
+```
+Only JDK 8
+
+```
+
+
 ## Prerequisites and Known Issues
 
 - You need a trial or commercial account of PallyCon Multi-DRM service.
