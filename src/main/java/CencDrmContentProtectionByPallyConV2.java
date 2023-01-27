@@ -406,6 +406,7 @@ public class CencDrmContentProtectionByPallyConV2 {
         Encoding encoding = new Encoding();
         encoding.setName(name);
         encoding.setDescription(description);
+        encoding.setEncoderVersion("2.39.0");
 
         return bitmovinApi.encoding.encodings.create(encoding);
     }
@@ -614,8 +615,8 @@ public class CencDrmContentProtectionByPallyConV2 {
     private static H264VideoConfiguration createH264VideoConfig(int height, int width, long bitrate)
             throws BitmovinException {
         H264VideoConfiguration config = new H264VideoConfiguration();
-        config.setName(String.format("H.264 %dp live", height));
-        config.setPresetConfiguration(PresetConfiguration.LIVE_STANDARD);
+        config.setName(String.format("H.264 %dp vod", height));
+        config.setPresetConfiguration(PresetConfiguration.VOD_STANDARD);
         config.setBitrate(bitrate);
         config.setHeight(height);
         config.setWidth(width);

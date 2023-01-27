@@ -69,7 +69,7 @@ Configure the integration using the below functions in the sample source
 Execute run_example.sh with the name of the java source file(`src/main/java`) as first parameter, followed by a list of configuration parameters if needed.
 
 ```bash
-run-example.sh CencDrmContentProtectionByPallyCon BITMOVIN_API_KEY=your-api-key HTTP_INPUT_HOST=my-storage.biz
+run-example.sh CencDrmContentProtectionByPallyConV2 BITMOVIN_API_KEY=your-api-key HTTP_INPUT_HOST=my-storage.biz
 ```
 
 ### Windows
@@ -77,7 +77,7 @@ run-example.sh CencDrmContentProtectionByPallyCon BITMOVIN_API_KEY=your-api-key 
 Execute run_example.bat with the name of the java source file as first parameter, followed by a list of configuration parameters if needed.
 
 ```bash
-run-example.bat CencDrmContentProtectionByPallyCon BITMOVIN_API_KEY=your-api-key HTTP_INPUT_HOST=my-storage.biz
+run-example.bat CencDrmContentProtectionByPallyConV2 BITMOVIN_API_KEY=your-api-key HTTP_INPUT_HOST=my-storage.biz
 ```
 
 ***
